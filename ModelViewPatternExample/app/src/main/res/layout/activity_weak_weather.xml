@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <data>
+        <variable
+            name="viewModel"
+            type="com.example.user.modelviewpatternexample.ViewModels.WeakViewModel"/>
+    </data>
+    <android.support.constraint.ConstraintLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/view"
+        tools:context=".WeakWeatherActivity">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/weatherRecyclerView"
+            android:layout_width="match_parent"
+            android:scrollbars="vertical"
+            android:layout_height="match_parent"/>
+    </android.support.constraint.ConstraintLayout>
+</layout>

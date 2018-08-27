@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">GoogleMapsExample</string>
+    <string name="start_point">Start Point</string>
+    <string name="finish_point">Finish Point</string>
+</resources>
